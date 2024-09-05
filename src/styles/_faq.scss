@@ -11,6 +11,8 @@
             background-color: #13151d;
             margin-bottom: 16px;
 
+
+
             &__question {
                 color: #fff;
                 font-size: 20px;
@@ -37,6 +39,9 @@
                 padding: 0 24px;
                 transition: height, .5s ease;
 
+                &__items {
+                    list-style: inside;
+                }
             }
 
             &--is-open {
